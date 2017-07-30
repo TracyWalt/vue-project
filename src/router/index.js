@@ -18,12 +18,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: '后台管理系统',
+      name: '首页',
       component: layout,
       children: [
-        {path: '/form', component: form},
-        {path: '/table', component: table},
-        {path: '/setting', component: setting},
+        {path: '/form', name: '表单', component: form},
+        {path: '/table', name: '表格', component: table},
+        {path: '/setting', name: '设置', component: setting},
         {path: '/wellcom', component: wellcom}
       ]
     },

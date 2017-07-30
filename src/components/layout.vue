@@ -33,7 +33,11 @@
 
       </aside>
       <section class="content-container">
-
+        <el-breadcrumb :class="$route.name ? 'navpath' : 'navpath onepath'" :separator="'/'">
+          <el-breadcrumb-item v-for="item in $route.matched" :to="{path: item.path || '/wellcom'}" :key="item.path">
+            {{ item.name }}
+          </el-breadcrumb-item>
+        </el-breadcrumb>
         <transition name="fade" mode="out-in">
           <router-view></router-view>
         </transition>

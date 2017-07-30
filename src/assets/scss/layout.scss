@@ -3,6 +3,10 @@
 		top: 0px;
 		bottom: 0px;
     width: 100%;
+    .navpath{
+      margin-bottom:20px;
+    }
+    .onepath .el-breadcrumb__separator{display:none;}
     .footer{
       position:absolute;
       width:100%;
