@@ -1,0 +1,22 @@
+.login-container {
+    border-radius: 5px;
+    width: 350px;
+    height:300px;
+    padding: 35px 35px 15px 35px;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0 25px #cac6c6;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-211px;
+    margin-top:-176px;
+    .title {
+      margin: 0px auto 40px auto;
+      text-align: center;
+      color: #505458;
+    }
+    .remember {
+      margin: 0px 0px 35px 0px;
+    }
+  }
