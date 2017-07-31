@@ -14,7 +14,6 @@ import wellcom from '@/components/wellcom'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',
